@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_start_alarm_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false"
+        android:text="Start AlarmManager" />
+
+    <Button
+        android:id="@+id/btn_stop_alarm_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Stop AlarmManager" />
+
+    <Button
+        android:id="@+id/btn_start_work_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Start WorkManager" />
+
+    <Button
+        android:id="@+id/btn_stop_work_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Stop WorkManager" />
+
+    <Button
+        android:id="@+id/btn_start_job_scheduler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Start JobScheduler" />
+
+    <Button
+        android:id="@+id/btn_stop_job_scheduler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Stop JobScheduler" />
+
+    <Button
+        android:id="@+id/btn_kill_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:text="Kill Process" />
+</LinearLayout>
